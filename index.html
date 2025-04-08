@@ -75,6 +75,26 @@
       background: linear-gradient(to right, #e0f7fa, #b2dfdb);
       color: #004d40;
     }
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding-top: 20px;
+    }
+    .team-member {
+      background: #f1f8e9;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 200px;
+    }
+    .team-member h4 {
+      margin-top: 10px;
+      font-size: 1.1em;
+      color: #2e7d32;
+    }
   </style>
 </head>
 <body>
@@ -143,7 +163,16 @@
   </section>
 
   <footer>
-    <p>By: Arushi Dhawan, Srishti Pant, Prisha Pokra, Ashvika Singh, Varista Gupta, and Yuvraj Verma</p>
+    <h3>Meet the Team</h3>
+    <div class="team">
+      <div class="team-member"><h4>Arushi Dhawan</h4></div>
+      <div class="team-member"><h4>Srishti Pant</h4></div>
+      <div class="team-member"><h4>Prisha Pokra</h4></div>
+      <div class="team-member"><h4>Ashvika Singh</h4></div>
+      <div class="team-member"><h4>Varista Gupta</h4></div>
+      <div class="team-member"><h4>Yuvraj Verma</h4></div>
+    </div>
   </footer>
 </body>
 </html>
+
