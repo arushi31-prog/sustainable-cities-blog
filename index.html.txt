@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sustainable Cities Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Sustainable Cities</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Blog</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Exploring the Future of Urban Living</h2>
+    <p>Insights on eco-friendly cities, smart planning, and a sustainable tomorrow.</p>
+  </section>
+
+  <!-- Blog Previews -->
+  <section class="posts">
+    <article>
+      <h3>Smart Mobility in Urban Spaces</h3>
+      <p>How public transport and smart tech are transforming daily commutes.</p>
+      <a href="#">Read more</a>
+    </article>
+    <article>
+      <h3>Green Buildings: A Step Toward Sustainable Architecture</h3>
+      <p>Exploring materials, designs, and innovations in sustainable construction.</p>
+      <a href="#">Read more</a>
+    </article>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Sustainable Cities Blog | Made with 💚 by Arushi Dhawan</p>
+  </footer>
+
+</body>
+</html>
